@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@color/colorPrimary"
+    android:paddingVertical="8dp">
+
+    <ImageView
+        android:id="@+id/menu_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/menu_icon"
+        android:contentDescription="@string/hamburger_menu_icon"/>
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/flexa_green_logo"
+        android:contentDescription="@string/hamburger_menu_icon"/>
+
+    <ImageView
+        android:id="@+id/search_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/search"
+        android:contentDescription="@string/hamburger_menu_icon"/>
+
+    <ImageView
+        android:id="@+id/shopping_cart_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/shopping_cart"
+        android:contentDescription="@string/hamburger_menu_icon"/>
+
+</LinearLayout>
